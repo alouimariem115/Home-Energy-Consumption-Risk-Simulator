@@ -1,0 +1,23 @@
+
+📌 Keep it short — industry prefers clarity over long text.
+
+---
+
+# ⚙️ 3️⃣ config.yaml (OPTIONAL but STRONGLY RECOMMENDED)
+
+This is **not mandatory**, but **very appreciated** in companies.
+
+### ✔ Why YAML is used in industry:
+- Separate configuration from code
+- Easy to modify without touching Python
+
+### 📄 Create file: `config.yaml`
+
+```yaml
+model:
+  name: energy_xgb
+  path: model/energy_model.pkl
+
+preprocessing:
+  scaler_path: model/scaler.pkl
+  features_path: model/feature_columns.pkl
